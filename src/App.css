@@ -1,0 +1,57 @@
+/* src/App.css */
+
+.container {
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .controls {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filter-dropdown {
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .country-card {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .country-flag {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .country-info {
+    margin-left: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2b7a78;
+    color: #fff;
+  }
+  

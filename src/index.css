@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .controls {
+    flex-direction: column;
+    align-items: center;
+  }
+  .searchInput, .dropdown {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
